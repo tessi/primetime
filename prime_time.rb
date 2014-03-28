@@ -5,7 +5,7 @@ get '/' do
   t =Time.now; timestamp = t.to_i
   out = "<div id='timestamp'>#{timestamp} (#{t.to_s})</div>"
   if timestamp.prime? && timestamp.is_prime?
-    out << "<div 'is_prime>Yeah, PRIME TIME</div>"
+    out << "<div id='is_prime'>Yeah, PRIME TIME</div>"
   else
     t2 = timestamp
     t2 -= 1 if (t2 % 2 == 0)
