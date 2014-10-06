@@ -1,14 +1,8 @@
-# Description
+# Prime Time
 
-A simple Sinatra app that tells you if the current unix timestamp is a prime number
-
-# Usage
-
-````bash
-  $ bundle install
-  $ ruby -rubygems prime_time.rb
-````
+A clock that highlights every UNIX timestamp which is a prime number.
 
 # Licence
 
-This work is MIT Licenced (see LICENCE file). miler_rabin.rb is not mine - see that file for details.
+This work is MIT Licenced (see LICENSE file).
+The miler-rabin algorithm is not mine - it's derived from the rosetta code project http://rosettacode.org/wiki/Miller-Rabin_primality_test#JavaScript.
